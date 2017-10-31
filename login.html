@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>hello</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  </head>
+  <body id="login">
+    <div class="container-fluid">
+    	<header>
+    		<div class="left">
+    			<p><a href="index.html" class="pull-left"><span class="glyphicon glyphicon-chevron-left"></span>Back</a></p>
+    		</div><!-- left -->
+			<div class="pull-right ">
+				<p id="member">Not a Member?</p>
+				<a href="signup.html"><button class="btn btn-primary sign">Sign up</button></a>
+			</div><!-- right -->
+    	</header>
+    	<div class="content">
+    		<p class="text-center heart"><span class="glyphicon glyphicon-heart " aria-hidden="true"></span></p>
+    		<div class="items">
+    			<form action="login.php" role="form">
+    				<div class="form-group" id="name">
+    					<input type="text" class="form-control" name="name" placeholder="Name" required="">
+    				</div><!-- #name -->
+    				<div class="form-group" id="email">
+    					<input type="password" class="form-control" name="password" placeholder="password" required="">
+    				</div>
+    				<div class="button">
+    					<label style="color:#fff"><input type="checkbox"> Remember me</label>
+    					<input type="submit" class="btn btn-primary btn-block" name="login" value="login">
+    				</div>
+    			</form>
+    		</div>
+    	</div><!-- content -->
+    </div><!-- container -->
+  </body>
+</html>

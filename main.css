@@ -1,0 +1,93 @@
+/*index page*/
+.search{
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+.jumbotron{
+	background-image: url(spiderman.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.inverse{
+	background-color: #435150;
+}
+.glyphicon.glyphicon-star{
+	color: green;
+}
+
+/* log in*/
+#login  , #signup{
+	background-image: url(download.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#member{
+	display: inline;
+	padding-right: 10px;
+	color: #fff;
+}
+.sign{
+	background: transparent !important;
+	border-color:  ;
+}
+.sign:hover{
+	border-color: chocolate !important;
+	color: red !important;
+}
+.content{
+	margin: 10% 35% 2% 35%;
+	background: ;
+	padding: 40px;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+}
+.items{
+	/*align-items:  center;
+	justify-content: center;*/
+	margin: 30px
+}
+.heart span{
+	font-size: 100px;
+	color: ;
+}
+#login.form-group [type="text"], .form-group [type="email"]{
+	box-shadow: none !important;
+	border:none;
+	border-bottom: 1px solid;
+	outline: none ;
+}
+/*sign up*/
+#signup .content{
+	margin: 7% 35% 2% 35%;
+}
+.names {
+	display: inline-flex;
+}
+#names{
+	margin:0 3px;
+}
+.content1{
+	margin: 8%;
+}
+/*-------------------------contact--------------------------*/
+#contact{
+	overflow: hidden;
+}
+/*------------------------request----------------------------*/
+.req{
+	background-image: url(superman.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.watch{
+	background-image: url() !important;
+}
+/*dashboard*/
+.side{
+	height: 800px;
+}
+.sidecont{
+	height: 100%;
+	background-color: #00fff0;
+}
